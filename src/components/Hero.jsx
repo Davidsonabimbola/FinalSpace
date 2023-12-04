@@ -24,9 +24,9 @@ useEffect(()=>{
 fetchActors()
 },
 [data])
-// OR use this format below
+// OR use this format
 // useEffect(() => {
-//     fetch("https://finalspaceapi.com/api/v0/character?limit=5")
+//     fetch("https://finalspaceapi.com/api/v0/character?limit=3")
 //       .then((res) => res.json())
 //       .then((data) => setData(data));
 //   }, []);
@@ -57,7 +57,7 @@ fetchActors()
   </div>
   </div>
   </div>
-{/* the fetched data from the space final API */}
+{/* the fetched data */}
   <div className=' flex-col  md:flex justify-center w-full h-auto mt-2'>
     <div className=' flex flex-wrap justify-center' >
     {data.map((character)=>(
