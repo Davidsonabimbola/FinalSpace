@@ -26,7 +26,7 @@ fetchActors()
 [data])
 // OR use this format
 // useEffect(() => {
-//     fetch("https://finalspaceapi.com/api/v0/character?limit=5")
+//     fetch("https://finalspaceapi.com/api/v0/character?limit=3")
 //       .then((res) => res.json())
 //       .then((data) => setData(data));
 //   }, []);
